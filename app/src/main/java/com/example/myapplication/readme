@@ -1,10 +1,38 @@
-Main URL>>> https://www.youtube.com/watch?v=1GBCg70G7cI
+Main URL>>>
+ https://www.youtube.com/watch?v=1GBCg70G7cI
 
 https://www.youtube.com/watch?v=ClbkwHaC0Ds&list=PLk7v1Z2rk4hj6PpRhOLPNuNorZk2zaSF5&index=2
 
-data binding>>> https://medium.com/@jencisov/androids-data-binding-with-kotlin-df94a24ffc0f
+retrofit>>
+https://medium.com/@jacinth9/android-retrofit-2-0-tutorial-89de3c714c63
+https://api.simplifiedcoding.in/course-apis/mvvm/login
+
+test API>>
+https://reqres.in/
+
+data binding>>>
+https://medium.com/@jencisov/androids-data-binding-with-kotlin-df94a24ffc0f
+https://www.geeksforgeeks.org/mvvm-model-view-viewmodel-architecture-pattern-in-android/
 
 github.paypal.com
 
 
-git hub token issue>> https://stackoverflow.com/questions/27505710/android-studio-cant-login-to-github
+git hub token issue>>
+ https://stackoverflow.com/questions/27505710/android-studio-cant-login-to-github
+
+stack custom layout>>>
+ https://medium.com/bumble-tech/a-custom-layoutmanager-case-beeline-on-android-d8d31526596b
+https://stackoverflow.com/questions/49956291/how-to-make-recyclerview-layout-manager-like-stack-view
+
+Kotlin Co routines
+
+https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide
+ Launch vs Async in Kotlin Coroutines
+* launch: fire and forget
+* async: perform a task and return a result
+*  withContext is nothing but another way of writing the async where we do not have to write await(). And When we use withContext, it will run in series instead of parallel. That is a major difference.  The thumb-rules:
+* Use withContext when you do not need the parallel execution.
+* Use async only when you need the parallel execution.
+* Both withContext and async can be used to get the result which is not possible with the launch.
+* Use withContext to return the result of a single task.
+* Use async for results from multiple tasks that run in parallel.

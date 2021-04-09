@@ -1,0 +1,45 @@
+Git  Commands
+
+Study links:
+1.  https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/github-collaboration/update-github-repositories-with-changes-by-others/#:~:text=You%20can%20update%20your%20fork,be%20updated%20in%20your%20fork.
+
+2. https://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository
+3.
+
+git pull origin develop --rebase
+git rebase --continue   
+git pull origin develop --rebase
+Git branch
+Git remote -v
+
+git remote set-url origin git@github.paypal.com:Android-R/Modules.git
+git remote add sachin git@github.paypal.com:sacchauhan/Modules.git
+git remote add Sopranos git@github.paypal.com:Sopranos/Modules-Android.git
+git remote add git@github.paypal.com:Sopranos/Modules-Android.git
+
+git checkout -b rewards_Fix   git add .
+
+Git log
+git checkout origin develop
+
+git branch -D branch-name
+Git branch -a  >> for all branch get
+git checkout -b rewardFixed
+
+Git add .
+Git commit —amend
+Git push Sachin brancename -f
+
+Git add .
+git commit -m "Bug Fix Rewards colour"
+git commit Soparons rewardFixed
+git push Sopranos rewardFixed
+
+git remote add sachin git@github.paypal.com:sacchauhan/Modules.git
+git remote -v
+git push sachin rewardFixed           >>>>> Sachin & rewardFixed is any given name by us 
+ Remove remote origin or any branch : git remote remove sachin2
+ git push -f Sachin rewardFix2 
+git cherry-pick commitId
+
+
